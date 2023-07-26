@@ -1,0 +1,60 @@
+'use strict';
+
+// Problem 2
+// The function should get two arrays of humidities as parameters
+
+// 1. Understand the problem
+// - Shoud we implement the same functionality for second array? No, we should merge two arrays
+
+// 2. Divide into sub-problems
+// - How to merge 2 arrays?
+
+// const calculateHumiditiesAmplitudeTwoArrays = function (h1, h2) {
+//   const humidities = h1.concat(h2);
+//   console.log(humidities);
+
+//   let max = humidities[0];
+//   let min = humidities[0];
+
+//   for (let i = 1; i < humidities.length; i++) {
+//     const currentHumidity = humidities[i];
+//     if (typeof currentHumidity !== 'number') continue;
+
+//     if (currentHumidity > max) {
+//       max = currentHumidity;
+//     }
+//     if (currentHumidity < min) {
+//       min = currentHumidity;
+//     }
+//   }
+
+//   console.log(min, max);
+//   return max - min;
+// };
+
+// const amplitude = calculateHumiditiesAmplitudeTwoArrays(
+//   [1, 20, 50],
+//   [23, 48, 78]
+// );
+// console.log(amplitude);
+
+// const celciusToKelvin = function () {
+//   const measurement = {
+//     type: 'temp',
+//     unit: 'celcius',
+//     // value: Number(prompt('Temperature in Celcius: ')),
+//     value: 35,
+//   };
+
+//   // console.log(measurement);
+//   console.table(measurement);
+
+//   console.log(measurement.value);
+//   // console.warn(measurement.value);
+//   // console.error(measurement.value);
+
+//   const kelvin = measurement.value + 273;
+//   return kelvin;
+// };
+
+// console.log(celciusToKelvin());
