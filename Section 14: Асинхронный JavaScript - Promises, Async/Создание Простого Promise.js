@@ -1,4 +1,3 @@
-/////////////////////////////////////////////
 //Создание Простого Promise
 
 const lotteryPromise = new Promise(function (resolve, reject) {

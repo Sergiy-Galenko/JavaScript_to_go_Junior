@@ -1,4 +1,3 @@
-///////////////////////////////////////////////
 // Запуск Нескольких Promise Параллельно
 
 const print3CountriesCapitals = async function (counry1, counry2, counry3) {

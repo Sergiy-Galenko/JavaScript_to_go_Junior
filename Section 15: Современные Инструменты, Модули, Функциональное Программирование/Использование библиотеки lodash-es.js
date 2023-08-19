@@ -1,4 +1,3 @@
-////////////////////////////////////////////////
 // Использование библиотеки lodash-es
 import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
 
