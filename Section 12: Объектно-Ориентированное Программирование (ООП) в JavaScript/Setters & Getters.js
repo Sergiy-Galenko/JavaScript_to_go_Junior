@@ -12,7 +12,7 @@
 console.log(account.lastTransaction());
 
 const account = {
-  owner: 'youra',
+  owner: "youra",
   transactions: [300, 500, -100, 600],
 
   get lastTransaction() {
@@ -50,7 +50,7 @@ class Person {
   // Установить значение в уже существующее свойство
   set fullName(personName) {
     console.log(personName);
-    if (personName.includes(' ')) {
+    if (personName.includes(" ")) {
       this._fullName = personName;
     } else {
       alert(`Полное имя должно состоять из имени и фамилии!`);
@@ -62,7 +62,7 @@ class Person {
   }
 }
 
-const jack = new Person('Jack White', 2000);
+const jack = new Person("Jack White", 2000);
 console.log(jack);
-const jane = new Person('Jane Red', 2000);
+const jane = new Person("Jane Red", 2000);
 console.log(jane.fullName);
